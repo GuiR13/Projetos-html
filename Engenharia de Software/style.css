@@ -1,0 +1,62 @@
+body
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    margin-left: 5px;
+    background-image: url(fundo2.jpg);
+    background-repeat: no-repeat;
+    background-size: 2400px;
+}
+#titulo
+{
+    margin-left: 100px;
+}
+#botoes
+{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+#definiçao
+{
+    margin-top: 70px;
+}
+#areas
+{
+    margin-top: 70px;
+
+}
+
+#carouselExampleCaptions
+{
+    width: 600px;
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 1250px;
+}
+#ferramentas
+{
+    margin-top: 70px;
+}
+.frase
+{
+    color: black;
+    position: relative;
+    margin-left: 140px;
+}
+
+.frase2
+{
+    color: black;
+    position: relative;
+    margin-left: 250px;
+}
+.frase3
+{
+    color: black;
+    position: relative;
+    margin-left: 200px;
+}
+.link
+{
+    color: brown;
+}

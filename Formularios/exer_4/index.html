@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Formulário 4</title>
+</head>
+<body>
+    <!--Geral-->
+    <div id="geral">
+    
+    <!--Divs azuis-->
+    <div id="azul_claro">
+        <legend>Não é associado? Faça seu cadastro</legend>
+    </div>
+    <div id="azul_escuro"></div><br>
+    <!--Fim Divs azuis-->
+    
+    <!--Div nome até endereço-->
+    <form>
+        <div id="nome_end">
+            <label for="nome">Nome</label>
+            <input class="nome" type="text" id="nome" name="nome"><br>
+            <label for="nomecomp">Nome<br>Completo</label>
+            <input class="nomecomp" type="text" id="nomecomp" name="nome completo"><br>
+            <label for="cpf">CPF</label>
+            <input class="cpf" type="number" id="cpf" name="cpf"><br>
+            <label for="email">E-mail</label>
+            <input class="email" type="email" id="email" name="email"><br>
+            <label for="website">Website</label>
+            <input class="website" type="text" id="website" name="website"><br>
+            <label for="endereço">Endereço</label>
+            <input class="endereço" type="text" id="endereço" name="endereço"><br>
+        </div>
+    <!--Fim Div nome até endereço-->   
+     
+    <!--Div bairro até login-->
+        <div id="bairro_login">
+            <label for="bairro">Bairro</label>
+            <input class="bairro" type="text" id="bairro" name="bairro"><br>
+            <label for="cep">Cep</label>
+            <input class="cep" type="text" id="cep" name="cep"><br>
+            <label for="telefone">Telefone</label>
+            <input class="telefone" type="tel" id="telefone" name="telefone"><br>
+            <label for="nasc">Data<br>Nascimento</label>
+            <input class="nasc" type="date" id="nasc" name=""><br>
+            <label for="celular">Celular</label>
+            <input class="celular" type="tel" id="celular" name="celular"><br>
+            <label for="login">Login</label>
+            <input class="login" type="text" id="login" name="login"><br>
+        </div> 
+    <!--Fim Div bairro até login-->
+
+    <!--Div cidade até senha-->
+        <div id="cid_senha">
+            <label for="cidade">Cidade</label>
+            <input class="cidade" type="text" id="cidade" name="cidade"><br>
+            <label for="uf">UF</label>
+            <select class="uf">
+                <option>AC</option>
+                <option>AL</option>
+                <option>AP</option>
+                <option>AM</option>
+                <option>BA</option>
+                <option>CE</option>
+                <option>DF</option>
+                <option>ES</option>
+                <option>GO</option>
+                <option>MA</option>
+                <option>MT</option>
+                <option>MS</option>
+                <option>MG</option>
+                <option>PA</option>
+                <option>PB</option>
+                <option>PR</option>
+                <option>PE</option>
+                <option>PI</option>
+                <option>RJ</option>
+                <option>RN</option>
+                <option>RS</option>
+                <option>RO</option>
+                <option>RR</option>
+                <option>SC</option>
+                <option>SP</option>
+                <option>SE</option>
+                <option>TO</option>
+            </select><br>
+            <label for="fax">Fax</label>
+            <input class="fax" type="text" type="number" id="fax" name="fax"><br>
+            <legend>Sexo</legend>
+            <input class="m" type="radio" id="m" name="sexo">
+            <label class="ma" for="m">M</label>
+            <input class="f" type="radio" id="f" name="sexo">
+            <label class="fe" for="f">F</label><br>
+            <label for="est.civil">Est.Civil</label>
+            <select class="civil">
+                <option>Solteiro</option>
+                <option>Casado</option>
+                <option>Viúvo</option>
+                <option>Divorciado</option>
+            </select><br>
+            <label for="senha">Senha</label>
+            <input class="senha" type="password" id="senha" name="senha"><br>
+        </div>
+        <!--Fim Div cidade até senha-->
+        <p>Deseja receber informações sobre os seguintes assuntos abaixo:</p>
+        <!--Div informações-->
+        <div id="infor">
+            <input type="checkbox" id="tec" name="tecnologia">
+            <label for="tec">Tecnologia</label>
+            <input type="checkbox" id="esp" name="esportes">
+            <label for="esp">Esportes</label>
+            <input type="checkbox" id="auto" name="automoveis">
+            <label for="auto">Automóveis</label>
+            <input type="checkbox" id="culi" name="culinaria">
+            <label for="culi">Culinária</label>
+            <input type="checkbox" id="polit" name="politica">
+            <label for="polit">Política</label>
+            <input type="checkbox" id="polic" name="policial">
+            <label for="polic">Policial</label>
+            <input type="checkbox" id="tempo" name="tempo">
+            <label for="tempo">Tempo</label><br>
+        </div> 
+        <div id="infor2">   
+            <input type="checkbox" id="cult" name="cultura">
+            <label for="cult">Cultura</label>
+            <input type="checkbox" id="eco" name="economia">
+            <label for="eco">Economia</label>
+            <input type="checkbox" id="jogos" name="jogos">
+            <label for="jogos">Jogos</label>
+            <input type="checkbox" id="educ" name="educaçao">
+            <label for="educ">Educação</label>
+            <input type="checkbox" id="viagem" name="viagem">
+            <label for="viagem">Viagem</label>
+            <input type="checkbox" id="empre" name="empregos">
+            <label for="empregos">Empregos</label>
+            <input type="checkbox" id="moda" name="moda e estilo">
+            <label for="moda">Moda e Estilo</label><br>
+        </div>
+        <!--Fim Div informações-->
+
+        <!--Div regras-->
+        <div>
+            <input type="checkbox" id="regras" name="regras">
+            <label for="regras">Li as regras de cadastro e autorizo a criação do usuário</label><br>
+        </div>
+        <!--Fim Div informações--> 
+        
+        <!--Div botões-->
+        <div id="botoes">
+            <button class="bt" type="submit">Confirmar</button>
+            <button class="bt" type="reset">Retornar</button>
+        </div>
+        </div>
+        <!--Fim Geral-->
+     </form>
+</body>
+</html>

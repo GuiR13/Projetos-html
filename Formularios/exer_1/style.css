@@ -1,0 +1,16 @@
+form {}
+input {
+    border: 2px solid lightgray;
+    border-radius: 1px;
+    width: 500px;
+}
+textarea {
+   border: 2px solid lightgrey; 
+   border-radius: 1px;
+   width: 500px;
+}
+button {
+    background-color: lightgray;
+    border: 2px solid lightskyblue;
+    border-radius: 2px;
+}

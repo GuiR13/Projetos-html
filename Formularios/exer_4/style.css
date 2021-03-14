@@ -1,0 +1,272 @@
+* 
+{
+    margin: 0px;
+    padding: 0px;
+}
+/*Div Geral*/
+#geral 
+{
+    width: 758px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 10px;
+}    
+
+/*Div azul claro*/
+#azul_claro
+{
+    border: 1px solid rgb(9, 213, 240);
+    width: 422px;
+    background-color: rgb(9, 213, 240);
+    margin-bottom: 5px;
+}
+
+/*Div azul escuro*/
+#azul_escuro 
+{
+    border: 1px solid rgba(24, 24, 133, 0.986);
+    background-color: rgba(24, 24, 133, 0.986);
+    width: 332px;
+    height: 18px;
+    position: relative;
+    margin-left: 423px;
+    margin-top: -25px;
+    margin-bottom: 5px;
+}
+
+/*Div nome até endereço*/
+#nome_end 
+{
+    position: relative;
+    margin-top: -20px;
+}
+
+/*Div bairro até login*/
+#bairro_login
+{
+    width: 409px;
+}
+
+/*Div cidade até senha*/
+#cid_senha
+{
+    position: absolute;
+    margin-left: 412px;
+    margin-top: -248px;
+    width: 347px;
+}
+
+/*Div informações*/
+#infor
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#infor2
+{
+    margin-bottom: 10px;
+
+}
+/*Div botões*/
+#botoes
+{
+    margin-top: 10px;
+}
+
+/*Inputs*/
+.nome
+{
+    border: 1px solid lightgray;
+    margin-left: 43px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    width: 669px;
+    height: 30px;
+}
+.nomecomp
+{
+    border: 1px solid lightgray;
+    margin-left: 23px;
+    margin-top: -15px;
+    position: absolute;
+    width: 669px;
+    height: 30px;
+}
+.cpf
+{
+    border: 1px solid lightgray;
+    margin-left: 54px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    width: 669px;
+    height: 30px;
+}
+.email
+{
+    border: 1px solid lightgray;
+    margin-left: 38px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    width: 669px;
+    height: 30px;
+}
+.website
+{
+    border: 1px solid lightgray;
+    margin-left: 31px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    width: 669px;
+    height: 30px;
+}
+.endereço
+{
+    border: 1px solid lightgray;
+    margin-left: 22px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    width: 669px;
+    height: 30px;
+}
+.bairro 
+{
+    border: 1px solid lightgray;
+    margin-left: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    width: 322px;
+    height: 30px;
+}
+.cep
+{
+    border: 1px solid lightgray;
+    margin-left: 55px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    width: 322px;
+    height: 30px;
+}
+.telefone
+{
+    border: 1px solid lightgray;
+    margin-left: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    width: 322px;
+    height: 30px;
+}
+.nasc 
+{
+    border: 1px solid lightgray;
+    margin-left: 9px;
+    margin-top: -15px;
+    margin-bottom: 5px;
+    position: absolute;
+    width: 322px;
+    height: 30px;
+}
+.celular
+{
+    border: 1px solid lightgray;
+    margin-left: 33px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    width: 322px;
+    height: 30px;
+}
+.login
+{
+    border: 1px solid lightgray;
+    margin-left: 42px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    width: 322px;
+    height: 30px;
+}
+.cidade
+{
+    border: 1px solid lightgray;
+    margin-left: 42px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    width: 252px;
+    height: 30px;
+}
+.uf
+{
+    border: 1px solid lightgray;
+    margin-left: 67px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    width: 50;
+    height: 30px;
+}
+.fax
+{
+    border: 1px solid lightgray;
+    margin-left: 63px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    width: 252px;
+    height: 30px;
+}
+.m
+{
+    margin-left: 95px;
+    margin-top: -14px;
+    position: absolute;
+}
+.ma
+{
+    margin-left: 115px;
+    margin-top: -16px;
+    position: absolute;
+}
+.f
+{
+    margin-left: 135px;
+    margin-top: -14px;
+    position: absolute;
+}
+.fe
+{
+    margin-left: 155px;
+    margin-top: -16px;
+    position: absolute;
+}
+.civil
+{
+    border: 1px solid lightgray;
+    margin-left: 32px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    width: 100px;
+    height: 30px;
+}
+.senha
+{
+    border: 1px solid lightgray;
+    margin-left: 49px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    width: 251px;
+    height: 30px;
+}
+.bt
+{
+    border: 2px solid lightblue;
+}

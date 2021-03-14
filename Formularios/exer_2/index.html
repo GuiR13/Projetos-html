@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Formulário 2</title>
+</head>
+<body>
+    <p class="topo">SISTEMA DE GESTÃO ACADÊMICA</p>
+    <P><b>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</b></P>
+   
+    <form class="formulario">
+        <label for="login"><b>Login</b></label>
+        <input class="lsd" type="text" id="login" name="login"><br>        
+        <label for="senha"><b>Senha</b></label>
+        <input class="ls" type="password" id="senha" name="senha"><br>
+
+        <label for="status"><b>Status</b></label>
+        <select class="stat" id="status" name="status">
+            <option value="inativo">Inativo</option>
+            <option value="casado">Casado</option>
+            <option value="solteiro">Solteiro</option>
+            <option value="viuvo">Viúvo</option>
+        </select><br>
+
+        <b>Tipo</b>
+        <input class="tip" type="radio" id="tecnico" name="tipo" value="tecnico">
+        <label for="tecnico"><b>Técnico</b></label>
+        <input type="radio" id="professor" name="tipo" value="professor">
+        <label for="professor"><b>Professor</b></label>
+        <input type="radio" id="aluno" name="tipo" value="aluno">
+        <label for="aluno"><b>Aluno</b></label><br>
+        
+    
+        <label for="data"><b>Data Criação</b></label>
+        <input class="d" type="date" id="data" name="data"><br>
+
+        <b>Perfil</b>
+        <input class="perf" type="radio" id="convidado" name="perfil" value="convidado">
+        <label for="convidado"><b>Convidado</b></label>
+        <input type="radio" id="administrador" name="perfil" value="administrador">
+        <label for="administrador"><b>Administrador</b></label><br>
+
+        <table>
+            <tr>
+                <td><label for="observaçoes"><b>Observações</b></label></td>
+                <td colspan="3"><textarea class="observ" id="observaçoes" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td rowspan="2"><b>Módulos</b></td>
+                <td><input type="checkbox" class="mod" id="compras" name="compras" value="Compras">
+                <label for="compras"><b>Compras</b></label>
+                <input type="checkbox" id="biblioteca" name="biblioteca" value="biblioteca">
+                <label for="biblioteca"><b>Biblioteca</b></label>
+                <input type="checkbox" id="academico" name="academico" value="academico">
+                <label for="academico"><b>Acadêmico</b></label><br>
+               <input type="checkbox" class="mod" id="documentaçao" name="documentaçao" value="documentaçao">
+                <label for="documentaçao"><b>Documentação</b></label>
+                <input type="checkbox" id="recursos" name="recursos" value="recursos">
+                <label for="recursos"><b>Recursos Humanos</b></label></td>
+            </tr>
+        </table><br><br>
+        <button class="bt" type="button">Cadastrar</button>&nbsp;
+        <button class="bt" type="reset">Excluir</button>
+
+    </form>
+</body>
+</html>

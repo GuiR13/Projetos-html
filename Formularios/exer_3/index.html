@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Formulário 3</title>
+</head>
+<body>
+     <!-- Div Geral -->
+     <div id="geral">
+        <!--Início da tabela de Cadastro Geral-->
+
+        <form>     
+            <!-- Início da Div de Cadastro Geral -->
+
+         <div id="cg">
+             <legend class="mini_cg"><b>Cadastro Geral</b></legend><br>
+
+            <!-- Início da Div Dados -->
+           
+                <div id="dp">
+                    <legend class="mini_dp"><b>Dados Pessoais</b></legend><br>
+
+                    <label for="nome">Nome Completo:</label><br>
+                    <input type="text" id="nome" name="nome"><br>
+
+                    <label for="profissao">Profissão:</label><br>
+                    <select id="profissao" name="profissao">
+                        <option value="sua profissao">Sua Profissão</option>
+                        <option value="professor">Professor</option>
+                        <option value="advogado">Advogado</option>
+                        <option value="office boy">Office Boy</option>
+                        <option value="carteiro">Carteiro</option>
+                        <option value="desempregado">Desempregado</option>
+                        <option value="outro">Outro</option>
+                     </select>
+                 </div>
+                <!-- Fim da Div Dados Pessoais -->
+               
+                <!-- Início da Div Localização -->
+                <div id="loc">
+                    <legend class="mini_loc"><b>Localização</b></legend><br>
+                    
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email" name="e-mail"><br>
+                    <label for="rua">Rua:</label><br>
+                    <input type="text" id="rua" name="rua"><br>
+                </div>
+                <!-- Fim da Div Localização -->
+
+                <!-- Início da Div Idade -->
+                <div id="fe">
+                    <legend class="mini_fe"><b>Faixa Etária</b></legend><br>
+        
+                    <input type="radio" id="20" name="idade" value="20">
+                    <label for="20">até 20 anos</label>
+                    
+                    <!--Botões Direita-->
+                    <input class="idd_50" type="radio" id="50" name="idade" value="50">
+                    <label class="idd_50" for="50">mais de 40 até 50 anos</label><br>
+                    
+                    <input type="radio" id="30" name="idade" value="30">
+                    <label for="30">mais de 20 até 30 anos</label>
+                    
+                    <!--Botões Direita-->
+                    <input class="idd_direita" type="radio" id="60" name="idade" value="60">
+                    <label class="idd_direita" for="60">mais de 50 até 60 anos</label><br>     
+                   
+                    <input type="radio" id="40" name="idade" value="40">
+                    <label for="40">mais de 30 até 40 anos</label>
+                    
+                    <!--Botões Direita-->
+                    <input class="idd_direita" type="radio" id="+60" name="idade" value="+60">
+                    <label class="idd_direita" for="+60">mais de 60</label><br>
+                </div>
+                <!-- Fim da Div Idade -->
+
+                <!-- Início da Div Esportes -->
+                <div id="ep">
+                    <legend class="mini_ep"><b>Esportes que pratica</b></legend><br>
+
+                    <input type="checkbox" id="fcampo" name="futebol de campo">
+                    <label for="fcampo">Futebol de campo</label><br>
+                    <input type="checkbox" id="fsalao" name="futebol de salao">
+                    <label for="fsalao">Futebol de salão</label><br>
+                    <input type="checkbox" id="fsociety" name="futebol de society">
+                    <label for="fsociety">Futebol de society</label><br>
+                    <input type="checkbox" id="vquadra" name="volley de quadra">
+                    <label for="vquadra">Volley de quadra</label><br>
+                    <input type="checkbox" id="vpraia" name="volley de praia">
+                    <label for="vpraia">Volley de praia</label><br>
+                    <input type="checkbox" id="npiscina" name="nataçao em piscina">
+                    <label for="npiscina">Natação em piscina</label><br>
+                    <input type="checkbox" id="nmar" name="nataçao em mar aberto">
+                    <label for="nmar">Natação em mar aberto</label>
+                </div>
+                <!-- Fim da Div Esportes -->
+
+            <!-- Fim da Div Cadastro Geral -->
+         </div>
+
+                <!-- Início da Div Comentários-->
+                <div id="coment">
+                    <legend class="mini_coment"><b>Comentário</b></legend><br>
+
+                    <label for="mensagem">Mensagem:</label><br>
+                    <textarea id="mensagem" rows="10"></textarea>
+                </div>
+                <!-- Fim da Div Comentários-->
+
+                <!-- Início da Div Botões-->
+                <div>
+                    <button class="bt" type="submit">Enviar</button>&nbsp;
+                    <button class="bt" type="reset">Limpar</button>
+                </div>
+                <!-- Fim da Div Botões -->
+            </form>
+    <!--Fim da Div Geral-->
+     </div>
+</body>
+</html>

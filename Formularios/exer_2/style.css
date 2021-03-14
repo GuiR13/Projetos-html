@@ -1,0 +1,59 @@
+.topo {
+    border: 1px solid rgba(227, 241, 17, 0.966);
+    background-color: rgba(227, 241, 17, 0.966);
+    margin-right: 350px;
+}
+.formulario {
+    margin: 0px;
+    padding: 0px;
+}
+.lsd {
+    width: 180px;
+    height: 22px;
+    margin-left: 150px;
+    margin-bottom: 5px;
+    border: 1px solid lightgrey;
+}
+.ls {
+    width: 179px;
+    height: 22px;
+    margin-left: 148px;
+    margin-bottom: 5px;
+    border: 1px solid lightgrey;
+}
+.d {
+    width: 180px;
+    height: 22px;
+    margin-left: 99px;
+    margin-bottom: 5px;
+    border: 1px solid lightgrey;
+}
+.stat {
+    width: 110px;
+    height: 22px;
+    margin-left: 147px;
+    margin-bottom: 5px;
+    border: 1px solid lightgrey;
+}
+.tip {
+    margin-left: 163px;
+    border:1px solid lightskyblue;
+    background-color: black;
+}
+.perf {
+    margin-left: 157px;
+}
+.observ {
+    margin-left: 100px;
+    width: 350px;
+    height: 100px;
+    border: 1px solid lightgray;
+}
+.mod {
+    margin-left: 100px;
+}
+.bt {
+    border: 2px solid lightskyblue;
+    border-radius: 3px;
+    background-color: lightgray;
+}

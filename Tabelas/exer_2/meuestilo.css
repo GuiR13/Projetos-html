@@ -1,0 +1,28 @@
+body {
+    background-color: lightsalmon;
+}
+
+.tabela {
+    border: 10px solid white;
+    border-spacing: 0px;
+  
+}
+.tabela td {
+    border: 1px solid lightgray;
+    background-color: white;
+    padding: 5px;
+}
+.tabela th {
+    border: 1px solid lightgray;
+    background-color: rgb(16, 236, 145);
+    padding: 5px;
+
+}
+#ccc {
+    background-color: rgb(175, 185, 196);
+    padding: 5px;
+}
+#nacional {
+    background-color: darkcyan ;
+    padding: 5px;
+}

@@ -1,0 +1,18 @@
+body {
+    background-color: burlywood;
+}
+.tabela {
+    border: 1px solid white;
+    background-color: white;
+}
+.tabela td {
+    border: 1px solid white;
+    background-color: orangered;
+}
+.tabela th{
+    border: 1px solid white;
+    background-color: red;
+}
+#amarelo {
+    background-color: yellow;
+}

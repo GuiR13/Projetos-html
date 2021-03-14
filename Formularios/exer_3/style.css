@@ -1,0 +1,192 @@
+* 
+{
+    margin: 0px;
+    padding: 0px;
+}
+/* Div GERAL */
+#geral 
+{
+    width: 800px;
+    height: 900px;
+    border: 2px solid rgb(25, 214, 25);
+    padding: 10px;
+    margin: 15px 0px 30px 20px;
+    position: relative;
+    background: url(mulher.jpg) no-repeat;
+    background-size: 100px;
+    background-position-x: 10px;
+    background-position-y: 5px;
+    background-attachment: scroll;
+    background-color: rgb(195, 223, 212);
+
+}
+/* Div Cadastro Geral*/
+#cg 
+{
+    width: 650px;
+    height: 525px;
+    border: 1px solid rgb(39, 150, 45);
+    padding: 10px;
+    margin: 20px 0px 10px 120px;
+    position: relative;
+    color: rgb(25, 214, 25);
+}
+/* Classe cg*/
+.mini_cg
+{
+    border: 1px solid rgb(39, 150, 45);
+    width: 107px;
+    padding: 3px;
+    top: -23px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+}
+/* Div Dados*/
+#dp
+{
+    border: 1px solid rgb(39, 150, 45);
+    width: 280px;
+    height: 118px;
+    position: relative;
+    margin: 0px 0px 10px 0px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background: url(escritorio.jpg) no-repeat;
+    background-size: 100px;
+    background-position-x: 150px;
+    background-position-y: 15px;
+    background-attachment: scroll;
+}
+/* Classe dp*/
+.mini_dp
+{
+    border: 1px solid rgb(39, 150, 45);
+    width: 104px;
+    position: relative;
+    top: -14px;
+    padding: 3px;
+    background-color: rgb(255, 255, 255);
+}
+/*Div Localização*/
+#loc
+{
+    border: 1px solid rgb(39, 150, 45);
+    width: 280px;
+    height: 118px;
+    position: absolute;
+    top: 54px;
+    right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background: url(localizaçao.jpg) no-repeat;
+    background-size: 100px;
+    background-position-x: 150px;
+    background-position-y: 15px;
+    background-attachment: scroll;
+}
+/* Classe loc*/
+.mini_loc
+{
+    border: 1px solid rgb(39, 150, 45);
+    width: 82px;
+    position: relative;
+    top: -14px;
+    padding: 3px;
+    background-color: rgb(255, 255, 255);
+}
+/*Div Idade*/
+#fe 
+{
+    border: 1px solid rgb(39, 150, 45);
+    position: relative;
+    padding: 0px 0px 10px 20px;
+    margin: 30px 0px 10px 0px;
+    background: url(idade.jpg) no-repeat;
+    background-size: 95px;
+    background-position-x: 514px;
+    background-position-y: 8px;
+    background-attachment: scroll;
+}    
+/*Classe fe*/
+.mini_fe
+{
+    border: 1px solid rgb(39, 150, 45);
+    width: 86px;
+    position: relative;
+    top: -14px;
+    padding: 3px;
+    background-color: rgb(255, 255, 255);
+}
+/*Botões Direita*/
+.idd_direita
+{
+    right: -180px;
+    position: relative;
+}
+.idd_50
+{
+    right: -253px;
+    position: relative;
+}
+/*Div Esportes*/
+#ep
+{
+    border: 1px solid rgb(39, 150, 45);
+    position: relative;
+    padding: 0px 0px 10px 10px;
+    bottom: -20px;
+    background: url(esportes.jpg) no-repeat;
+    background-size: 200px;
+    background-position-x: 408px;
+    background-position-y: 30px;
+    background-attachment: scroll;
+ }
+/*Classe ep*/
+.mini_ep
+{
+    border: 1px solid rgb(39, 150, 45);
+    width: 142px;
+    position: relative;
+    top: -14px;
+    padding: 3px;
+    background-color: rgb(255, 255, 255);
+}
+/*Div Comentários*/
+#coment
+{
+    width: 650px;
+    border: 1px solid rgb(39, 150, 45);
+    padding: 10px;
+    margin: 30px 0px 10px 120px;
+    position: relative;
+    color: rgb(25, 214, 25);
+    background: url(comentario.jpg)no-repeat; 
+    background-size: 200px;
+    background-position-x: 423px;
+    background-position-y: 22px;
+    background-attachment: scroll;   
+}
+/*Classe coment*/
+.mini_coment
+{
+    border: 1px solid rgb(39, 150, 45);
+    width: 81px;
+    position: relative;
+    top: -24px;
+    padding: 3px;
+    background-color: rgb(255, 255, 255);
+}
+/*ID Mensagem*/
+#mensagem
+{
+    border: 1px solid rgb(39, 150, 45);
+    width: 350px;
+}
+/*Bottões*/
+.bt
+{
+  left: 120px;
+  position: relative;
+  width: 70px;
+  border: 1px solid rgb(39, 150, 45);
+}

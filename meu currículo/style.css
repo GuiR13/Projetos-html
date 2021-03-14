@@ -1,0 +1,119 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}   
+body
+{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	background-image: url(job.jpg);
+	background-size: 100%;
+    background-repeat: no-repeat;
+    font-size: 20px;
+}
+a
+{
+	text-decoration: none;
+	color: rgb(13, 139, 212);
+	display: block;
+	padding: 20px 5px;
+}
+a:hover
+{
+	background-color: rgb(235, 183, 106);
+    color: rgb(13, 139, 212);
+    font-size: 22px;
+}
+ul
+{
+	list-style: none;
+	top: 70px;
+	position: absolute;
+	width: 100%;
+}
+img
+{
+	width: 40px;
+}
+input[type="checkbox"]
+{
+	display: none;
+}
+input[type="checkbox"]:checked ~ nav
+{
+	transform: translateX(350px);
+}
+nav 
+{
+	background-color: rgba(16,16,16,0.5);
+	width: 300px;
+	position: absolute;
+	height: 330px;
+	left: -350px;
+	transition: all 0.25s;
+}
+label
+{
+	padding: 15px;
+	position: absolute;
+	z-index: 1;
+}
+#dados
+{
+    position: relative;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding-left: 450px;
+    height: 800px;
+}
+.dados2
+{
+    border-top: 2px solid rgb(236, 167, 18);
+    border-bottom: 2px solid rgb(236, 167, 18);
+    width: 750px;
+}
+.ob
+{
+    border-bottom: 2px solid rgb(236, 167, 18);
+    width: 750px;
+}
+#img
+{
+    background: url(eu.jpg)no-repeat;
+    width: 400px;
+    height: 500px;
+    background-size: 400px;
+    position: absolute;
+    top: 10px;
+    left: 130px;
+}
+#formaçao
+{
+    position: relative;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding-left: 450px;
+    height: 800px;
+}
+.form
+{
+    border-top: 2px solid rgb(236, 167, 18);
+    border-bottom: 2px solid rgb(236, 167, 18);
+    width: 1000px;
+}
+.cursos
+{
+    border-bottom: 2px solid rgb(236, 167, 18); 
+    width: 1000px; 
+}
+#exp
+{
+    position: relative;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding-left: 450px;
+    height: 800px; 
+}
